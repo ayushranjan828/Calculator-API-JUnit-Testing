@@ -51,25 +51,17 @@ A basic calculator REST API built using **Spring Boot**, supporting operations l
         └── CalculatorServiceTest.java
 
 ✅ Run Tests
-  In terminal:
-        ./mvnw test
-  In IDE:
-        Right-click CalculatorServiceTest.java > Run.
+In terminal:
+   ./mvnw test
+In IDE:
+   Right-click CalculatorServiceTest.java > Run.
 
 ▶️ Run the Application
-      ./mvnw spring-boot:run
-      OR run CalculatorApplication.java from your IDE.
+   ./mvnw spring-boot:run
+   OR run CalculatorApplication.java from your IDE.
 
 
 📌 Notes
-        Proper error handling is added for divide-by-zero cases.
-        
-        Code follows clean MVC structure with service separation.
+Proper error handling is added for divide-by-zero cases.
 
-📄 License
-This project is licensed under the MIT License.
-
-
----
-
-Would you like me to generate the entire GitHub repo structure with this README and sample `.gitignore` file too?
+Code follows clean MVC structure with service separation.
