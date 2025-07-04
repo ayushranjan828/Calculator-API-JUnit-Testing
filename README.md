@@ -53,10 +53,12 @@ A basic calculator REST API built using **Spring Boot**, supporting operations l
 ---
 
 ✅ Run Tests
+
 In terminal:
-./mvnw test
+      ./mvnw test
+
 In IDE:
-Right-click CalculatorServiceTest.java > Run.
+      Right-click CalculatorServiceTest.java > Run.
 
 ---
 
@@ -69,5 +71,7 @@ Right-click CalculatorServiceTest.java > Run.
 ---
 
 📌 Notes
+
       Proper error handling is added for divide-by-zero cases.
+      
       Code follows clean MVC structure with service separation.
